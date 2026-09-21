@@ -1,1 +1,33 @@
-# 初始化
+# ---------- 你自己的隐私，绝对不要提交 ----------
+# 里面有明文密码
+config.json
+config.local.json
+# 界面记住的账号 / 上次填的参数
+gui_last.json
+
+# ---------- 运行时产生的垃圾 ----------
+run_log.txt
+*.log
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------- 依赖与浏览器配置（体积大，且含 Cookie）----------
+libs/
+.edge_profile/
+edge_profile/
+*.edge_profile/
+
+# ---------- 调试输出 ----------
+site_dump/
+*.html
+*.htm
+!test_*.html
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

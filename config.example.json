@@ -1,0 +1,27 @@
+{
+  "_说明": "复制本文件为 config.json 并填入自己的信息。config.json 含明文密码，不要提交到 Git。",
+
+  "user": "你的学号",
+  "password": "你的密码",
+
+  "base_url": "http://jwxt.cumtxh.cn/jwglxt",
+
+  "_course": "要抢的教学班 jxb_id 列表，可以用 --list 查到",
+  "course": [],
+
+  "_interval": "每轮间隔秒数，别设成 0",
+  "interval": 0.35,
+  "jitter": 0.15,
+
+  "_attempts": "最大轮数，0 = 不限",
+  "attempts": 0,
+
+  "_minutes": "最长运行分钟数，0 = 不限",
+  "minutes": 30,
+
+  "timeout": 20,
+
+  "_modules": "选课模块，按顺序探测",
+  "modules": ["xsxk", "xszx"],
+  "gnmkdm": "N253508"
+}
